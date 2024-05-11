@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+       <script type="text/javascript">
+            function insert(){
+                document.form1.action="phyinsert.jsp"
+                document.form1.submit();
+            }
+            
+            </script>
+    </head>
+    <body bgcolor="#003566">
+    <form name="form1" method="post"><center>
+        <h1 style="color:#03045e ">PHYSICAL</h1>
+        <img src="phy.jpg" width="1280" height="328" alt="phy"/>
+        <h3 style="color:#386641; font-style: oblique;">Fill the Details:</h3>
+        <h2 style="color:#6a994e">UserName:&ensp; <input type="text" name="uname" value="" /></h2>
+        <h2 style="color:#6a994e">Banasthali ID:&ensp; <input type="text" name="roll" value="" /></h2>
+        <h2 style="color:#6a994e">Activity Name: <input type="text" name="course" value="" /></h2>
+        <h2 style="color:#6a994e">Hostel Name: &ensp;<input type="text" name="email" value="" /></h2>
+        <input type="button" value="Confirm" style="color: #ef476f; font-style: italic; font-size: 18px; " onclick="insert()" />&ensp;&ensp;&ensp;&ensp;<input type="button" value="Find" style="color: #ef476f; font-style: italic; font-size: 18px; "/>&ensp;&ensp;&ensp;&ensp;<input type="button" value="Display" style="color: #ef476f; font-style: italic; font-size: 18px; "/>&ensp;&ensp;&ensp;&ensp;<input type="button" value="Delete" style="color: #ef476f; font-style: italic; font-size: 18px; "/>&ensp;&ensp;&ensp;&ensp;<input type="button" value="Update" style="color: #ef476f; font-style: italic; font-size: 18px; "/>&ensp;&ensp;&ensp;&ensp;<input type="button" value="Clear" style="color: #ef476f; font-style: italic; font-size: 18px; "/>
+    </center>
+    </form>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style>
+            body{
+                background-image:url('bg.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        </style>
+        <script type="text/javascript">
+            function signup(){
+                document.form2.action="validate.jsp"
+                document.form2.submit();
+            }
+        </script>
+    </head>
+    <body bgcolor="#ade8f4">
+        <form name="form2" action="validate.jsp" method="post">
+        <div><center>
+        <div ><h1 style="color:#03045e; background-color:#f1faee; display: inline-block" >BANASTHALI VIDYAPITH</h1></div>
+        <img src="BV.jpeg" width="278" height="285" alt="BV"/><br>
+        <h2 style="color:#0077b6; background-color:#f1faee;  display: inline-block">Log in Details</h2>
+        <br><br><table border="2" width="15" cellspacing="6" cellpadding="6">
+                <tbody>
+                    <tr>
+                        <td bgcolor="#f1faee">UserName</td>
+                        <td><input type="text" name="usname" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#f1faee">Password</td>
+                        <td><input type="password" name="upass" value="" /></td>
+                    </tr>
+                </tbody>
+        </table>
+        <br><br><input type="submit" value="Log in" style="font-size: 20px" onclick="signup()" /><br><br><br><br><br><br><br><br><br>
+            </center>
+            </div>
+        </form>
+    </body>
+</html>
